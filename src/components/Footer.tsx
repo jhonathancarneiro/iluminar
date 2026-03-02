@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -43,16 +44,15 @@ export default function Footer() {
         </div>
         <div className="grid md:grid-cols-4 gap-12 border-b border-secondary/10 pb-12">
           <div className="space-y-6">
-            <div className="flex items-center gap-2">
-              <div className="bg-primary p-1.5 rounded-lg flex items-center justify-center">
-                <span className="material-symbols-outlined text-white text-xl">
-                  rocket_launch
-                </span>
-              </div>
-              <span className="text-lg font-extrabold tracking-tight text-secondary">
-                Pequenos Exploradores
-              </span>
-            </div>
+            <Link href="/" className="inline-block">
+              <Image
+                src="/logo.png"
+                alt="Escola Iluminar - Educação Infantil e Ensino Fundamental"
+                width={200}
+                height={56}
+                className="h-12 w-auto object-contain"
+              />
+            </Link>
             <p className="text-secondary/60">
               Educando crianças para serem protagonistas de suas próprias
               descobertas.
@@ -129,7 +129,7 @@ export default function Footer() {
                 <span className="material-symbols-outlined text-primary">
                   location_on
                 </span>
-                Av. das Flores, 123 - São Paulo
+                R. José de Alençar 824 - Colombo
               </li>
             </ul>
           </div>
@@ -146,7 +146,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="pt-8 text-center text-secondary/40 text-sm">
-          © {new Date().getFullYear()} Pequenos Exploradores. Todos os direitos
+          © {new Date().getFullYear()} Escola Iluminar. Todos os direitos
           reservados.
         </div>
       </div>

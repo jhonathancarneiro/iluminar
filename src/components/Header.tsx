@@ -1,18 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background-light/80 backdrop-blur-md border-b border-secondary/5">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="bg-primary p-2 rounded-lg flex items-center justify-center">
-            <span className="material-symbols-outlined text-white text-2xl">
-              rocket_launch
-            </span>
-          </div>
-          <span className="text-xl font-extrabold tracking-tight text-secondary">
-            Pequenos Exploradores
-          </span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="Escola Iluminar - Educação Infantil e Ensino Fundamental"
+            width={200}
+            height={56}
+            className="h-12 w-auto object-contain"
+            priority
+          />
         </Link>
         <nav className="hidden md:flex items-center gap-8 font-semibold text-secondary/80">
           <Link href="/" className="hover:text-primary transition-colors">

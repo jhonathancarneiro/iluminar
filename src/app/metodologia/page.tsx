@@ -4,9 +4,9 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Metodologia",
   description:
-    "Como as crianças aprendem e crescem na Pequenos Exploradores. Metodologia baseada no respeito à infância e no estímulo à curiosidade natural.",
+    "Como as crianças aprendem e crescem na Escola Iluminar. Metodologia baseada no respeito à infância e no estímulo à curiosidade natural.",
   openGraph: {
-    title: "Metodologia | Pequenos Exploradores",
+    title: "Metodologia | Escola Iluminar",
     description:
       "Conheça nossa metodologia: protagonismo infantil, aprendizado lúdico e desenvolvimento integral.",
   },
@@ -41,7 +41,7 @@ export default function MetodologiaPage() {
           </div>
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-slate-600 dark:text-slate-400 text-lg md:text-xl leading-relaxed">
-              Na Pequenos Exploradores, acreditamos que cada criança é
+              Na Escola Iluminar, acreditamos que cada criança é
               protagonista de sua própria jornada de descoberta. Nossa metodologia
               é baseada no respeito à infância e no estímulo constante à
               curiosidade natural.

@@ -12,12 +12,14 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Pequenos Exploradores - Escola Infantil",
-    template: "%s | Pequenos Exploradores",
+    default: "Escola Iluminar - Educação Infantil e Ensino Fundamental",
+
+
+    template: "%s | Escola Iluminar",
   },
   description:
     "Escola infantil onde cada descoberta vira uma aventura. Ambiente acolhedor e seguro para seu filho explorar, criar e crescer.",
-  keywords: ["escola infantil", "educação infantil", "creche", "berçário", "São Paulo"],
+  keywords: ["escola infantil", "educação infantil", "creche", "berçário", "Colombo","Curitiba","PR"],
   openGraph: {
     type: "website",
     locale: "pt_BR",

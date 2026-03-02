@@ -5,9 +5,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Atividades",
   description:
-    "Explore o dia a dia e os projetos pedagógicos da Pequenos Exploradores. Oficina de artes, hora da leitura, horta pedagógica e recreação.",
+    "Explore o dia a dia e os projetos pedagógicos da Escola Iluminar. Oficina de artes, hora da leitura, horta pedagógica e recreação.",
   openGraph: {
-    title: "Atividades | Pequenos Exploradores",
+    title: "Atividades | Escola Iluminar",
     description:
       "Conheça as atividades que transformam o aprendizado em descoberta.",
   },

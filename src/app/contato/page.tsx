@@ -4,9 +4,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Contato",
   description:
-    "Entre em contato com a Pequenos Exploradores. Agende uma visita, tire dúvidas sobre matrículas ou fale pelo WhatsApp.",
+    "Entre em contato com a Escola Iluminar. Agende uma visita, tire dúvidas sobre matrículas ou fale pelo WhatsApp.",
   openGraph: {
-    title: "Contato | Pequenos Exploradores",
+    title: "Contato | Escola Iluminar",
     description:
       "Agende uma visita ou fale conosco. Estamos prontos para receber você e seu pequeno explorador.",
   },
@@ -58,7 +58,7 @@ export default function ContatoPage() {
           <div>
             <h2 className="font-bold text-secondary mb-1">Endereço</h2>
             <p className="text-secondary/80">
-              Av. das Flores, 123 - São Paulo, SP
+            R. José de Alençar, 824,-Colombo, PR
             </p>
           </div>
         </div>

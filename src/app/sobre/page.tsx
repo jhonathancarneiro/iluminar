@@ -4,11 +4,11 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Sobre Nós",
   description:
-    "Conheça a história da Pequenos Exploradores. Desde 2010, transformando a educação infantil em uma jornada de descobertas, afeto e desenvolvimento integral.",
+    "Conheça a história da Escola Iluminar. Desde 2010, transformando a educação infantil em uma jornada de descobertas, afeto e desenvolvimento integral.",
   openGraph: {
-    title: "Sobre Nós | Pequenos Exploradores",
+    title: "Sobre Nós | Escola Iluminar",
     description:
-      "Conheça a história da Pequenos Exploradores. Desde 2010, transformando a educação infantil.",
+      "Conheça a história da Escola Iluminar. Desde 2010, transformando a educação infantil.",
   },
 };
 
@@ -52,7 +52,7 @@ export default function SobrePage() {
             Onde Tudo Começou
           </h2>
           <p className="text-slate-600 dark:text-slate-300 text-lg leading-relaxed">
-            A Pequenos Exploradores nasceu do sonho da nossa fundadora, Ana
+            A Escola Iluminar nasceu do sonho da nossa fundadora, Ana
             Paula, de criar um espaço onde a criança fosse verdadeiramente a
             protagonista do seu aprendizado. Iniciamos em uma pequena casa com
             apenas duas turmas, mas com um propósito gigante: humanizar o ensino
