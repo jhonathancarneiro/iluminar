@@ -35,7 +35,7 @@ export default function HomePage() {
           <div className="relative z-10 space-y-8">
             <div className="inline-flex items-center gap-2 bg-accent/20 text-secondary px-4 py-2 rounded-full font-bold text-sm">
               <span className="material-symbols-outlined text-lg">kid_star</span>
-              Matrículas Abertas 2024
+              Matrículas Abertas 2026
             </div>
             <h1 className="text-5xl lg:text-7xl font-extrabold leading-[1.1] text-secondary">
               Onde cada <span className="text-primary">descoberta</span> vira
