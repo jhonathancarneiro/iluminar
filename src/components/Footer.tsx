@@ -117,7 +117,7 @@ export default function Footer() {
                 <span className="material-symbols-outlined text-primary">
                   phone
                 </span>
-                (11) 4567-8901
+                (41) 3037-4008
               </li>
               <li className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-primary">
@@ -138,7 +138,7 @@ export default function Footer() {
             <p className="text-secondary/60">
               Segunda a Sexta
               <br />
-              07:00 às 19:00
+              07:15 às 19:15
             </p>
             <div className="p-4 bg-primary/10 rounded-lg text-sm text-secondary font-semibold">
               Ambiente seguro com monitoramento 24h

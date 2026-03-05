@@ -33,7 +33,7 @@ export default function ContatoPage() {
               href="tel:+551145678901"
               className="text-secondary/80 hover:text-primary transition-colors"
             >
-              (11) 4567-8901
+              (41) 3037-4008
             </a>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function ContatoPage() {
           <div>
             <h2 className="font-bold text-secondary mb-1">Horário de atendimento</h2>
             <p className="text-secondary/80">
-              Segunda a Sexta, das 07:00 às 19:00
+              Segunda a Sexta, das 07:15 às 19:15
             </p>
           </div>
         </div>

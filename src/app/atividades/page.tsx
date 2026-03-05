@@ -15,26 +15,27 @@ export const metadata: Metadata = {
 
 const ACTIVITIES = [
   {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuALj7ownIFQ2aGh_J5EPsiQdlrTcPyZkTLItsnHvKP2u7A7uW4KhQ4eLkq2uI9RKLMOc0q90VrtYk-QFTR1SobJgjZ-6YJKFeI6hNzyN5Wpe56Zx1RjDgOYbREWBitTr3yZttn7Ws-GeNdGPZCT_kGHXs2z-HtGCmOwoe_6rGuUcHg_DathCxOIarBE7kaTYPqa59F9tpE-GfKdSyymka5-PlYv_tNtqXIbeimFxe48xcFDT97imxrZRA3H2oG02SLNKwjSal2aqPU",
-    alt: "Criança concentrada pintando com as mãos",
-    title: "Oficina de Artes",
+    src: "/images/capoeira.JPG",
+    alt: "Criança de capoeira",
+    title: "Aulas de Capoeira",
   },
   {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuA0QXACBeTeCW1l61ChEi8O6gTskSo8iDcEeYXTZgD8ZzHLckTYccD38V7I2qeF4o7cL_gdKmu4qaMChR1rdpUUc4eKyZ0Wyzq74i0WX-rMjR34GxEtHFUw6BzEWqwQg832TXYu94PO5R6CFuYvDKgveFDhXLKvkkEyE_Q8-ynd-1cOC_bYwZzHt7ulVhf5-lNXkCfbBWq59Ei274Z5px0972mbXQuhRsDa_Gdnn7Pkshb9rfaH9a8RXIaGJUvFHfBdX53-dQ0br9U",
+    src: "/images/1.JPG",
     alt: "Crianças sentadas em círculo ouvindo história",
-    title: "Hora da Leitura",
+    title: "Hora de atividades",
   },
   {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDOHdUGXbA1yeERBr_Icbe8aPI5a__vHuFbMza-kPssgoH6opYpJMtUbW735kwT21XOpTWii1Ks7aNPxYPuR50-0kZ6P1Zyyx2P1u_atxA88eDOUjw5Lq19lM7zZl6_Hh7vtvsA1W4e60XCG8pnbZ2c40HsRAGQrBjjWSWftAOspMArs1NrgrGB3hMR4pBiAYpFq8K9dV4gThVTJiR5UvfK27iH0I-jd2BIxIhWg-5zRMQKiI6bC-3RGH7iThBS2z9vk6aPA_5D1fU",
+    src: "/images/2.JPG",
     alt: "Criança cuidando de uma pequena planta no jardim",
-    title: "Horta Pedagógica",
+    title: "Alimentação saudável",
   },
   {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuBc1mYQAJfvNtDFQp9WDIMQeDIF_OX_TuXq7XpMWdIgF0NbxPIDo2CRjYO6uR-O_ZjCYibGChw2oYoc3BuAiApBjZwxvmqm4gEISCIapSKadyZGbKYNxeQFEMmsSxMEMKqQ9xLa52sPgvxdM4wwaOVBOfzxGtOuz4TnE-6gtZXftnunX4ZqjiZrgQmMKnHrdyqj8DVli5rFm60wrjFBfPvVRdzc6xJ4CtH9OEhuca4ygb-M-d6ljJ3fxbv2zx-Eh8xCQzv15V7trwo",
+    src: "/images/recreacao.JPG",
     alt: "Crianças brincando no parquinho ao ar livre",
     title: "Recreação Livre",
   },
 ];
+
 
 export default function AtividadesPage() {
   return (

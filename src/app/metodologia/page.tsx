@@ -13,27 +13,29 @@ export const metadata: Metadata = {
 };
 
 const HERO_IMAGE =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuD35ELIotKSoZCfO3Vx6Y8_pvbfSqa8iyV80smpPdsGsLcTfzN2jGE9A3HwKeRK5-AMl6mOQGILe2P9tsHyNMOVlH6J8178fbXC9ZsoLd3RnYE1pan4xcYOBVeq9NM3KjQaAb-kKU-jVLlQWETZJFmIFfEi5W6KxGWAnq8-vQKnywMTuU6KdcGDdE_K3RRzaBFZHjhvgEKgGZ4-puW2wmI8pB-4E9P-JkTjaZjKVO8qNGiXxKZXELVelfL2iWo2c1EPNyh05m4J9OQ";
-
+"/images/banner.JPG";
 export default function MetodologiaPage() {
   return (
     <div className="flex flex-col">
       <section className="px-6 md:px-20 py-12 md:py-20">
         <div className="max-w-5xl mx-auto">
-          <div className="relative w-full aspect-[21/9] rounded-3xl overflow-hidden shadow-2xl mb-12">
+          <div className="relative w-full aspect-[21/9] rounded-3xl overflow-hidden shadow-2xl ring-4 ring-secondary/10 mb-12">
             <Image
               src={HERO_IMAGE}
               alt="Crianças brincando ao ar livre em jardim ensolarado"
               fill
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent z-10" />
+            <div
+              className="absolute inset-0 bg-gradient-to-t from-secondary/50 via-secondary/15 to-transparent z-10 pointer-events-none"
+              aria-hidden
+            />
             <div className="absolute bottom-0 left-0 p-8 md:p-12 z-20">
               <span className="bg-background-light/90 px-4 py-2 rounded-lg text-secondary text-xs font-bold flex items-center gap-2 mb-6 inline-flex">
                 <span className="material-symbols-outlined text-sm">star</span>
                 Nossa Essência
               </span>
-              <h1 className="text-secondary text-4xl md:text-6xl font-extrabold leading-tight">
+              <h1 className="text-white text-4xl md:text-6xl font-extrabold leading-tight drop-shadow-sm">
                 Como as crianças{" "}
                 <span className="text-primary">aprendem</span> e crescem aqui
               </h1>
