@@ -123,7 +123,7 @@ export default function Footer() {
                 <span className="material-symbols-outlined text-primary">
                   mail
                 </span>
-                ola@pequenosexploradores.com
+                secretaria@escolailuminar.com
               </li>
               <li className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-primary">
