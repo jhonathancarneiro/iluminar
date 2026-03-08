@@ -121,7 +121,7 @@ export default function HomePage() {
                 aprender sobre o mundo e desenvolver novas habilidades.
               </p>
             </div>
-            <div className="bg-white/5 border border-white/10 p-10 rounded-lg hover:bg-white/10 transition-colors group">
+        {/*    <div className="bg-white/5 border border-white/10 p-10 rounded-lg hover:bg-white/10 transition-colors group">
               <div className="w-16 h-16 bg-accent rounded-2xl flex items-center justify-center mb-6 -rotate-3 group-hover:-rotate-6 transition-transform">
                 <span className="material-symbols-outlined text-secondary text-3xl">
                   potted_plant
@@ -133,6 +133,7 @@ export default function HomePage() {
                 estimular a consciência ecológica desde cedo.
               </p>
             </div>
+*/}
             <div className="bg-white/5 border border-white/10 p-10 rounded-lg hover:bg-white/10 transition-colors group">
               <div className="w-16 h-16 bg-primary/40 rounded-2xl flex items-center justify-center mb-6 rotate-6 group-hover:rotate-12 transition-transform">
                 <span className="material-symbols-outlined text-white text-3xl">
