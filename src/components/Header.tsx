@@ -1,7 +1,20 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
+
+const navLinks = [
+  { href: "/", label: "Início" },
+  { href: "/metodologia", label: "Metodologia" },
+  { href: "/atividades", label: "Atividades" },
+  { href: "/sobre", label: "Sobre Nós" },
+  { href: "/contato", label: "Contato" },
+];
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="sticky top-0 z-50 bg-background-light/80 backdrop-blur-md border-b border-secondary/5">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
@@ -16,24 +29,15 @@ export default function Header() {
           />
         </Link>
         <nav className="hidden md:flex items-center gap-8 font-semibold text-secondary/80">
-          <Link href="/" className="hover:text-primary transition-colors">
-            Início
-          </Link>
-          <Link
-            href="/metodologia"
-            className="hover:text-primary transition-colors"
-          >
-            Metodologia
-          </Link>
-          <Link href="/atividades" className="hover:text-primary transition-colors">
-            Atividades
-          </Link>
-          <Link href="/sobre" className="hover:text-primary transition-colors">
-            Sobre Nós
-          </Link>
-          <Link href="/contato" className="hover:text-primary transition-colors">
-            Contato
-          </Link>
+          {navLinks.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className="hover:text-primary transition-colors"
+            >
+              {label}
+            </Link>
+          ))}
         </nav>
         <div className="flex items-center gap-4">
           <Link
@@ -45,11 +49,41 @@ export default function Header() {
           <button
             type="button"
             className="p-2 text-secondary md:hidden"
-            aria-label="Abrir menu"
+            aria-label={menuOpen ? "Fechar menu" : "Abrir menu"}
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen(!menuOpen)}
           >
-            <span className="material-symbols-outlined text-3xl">menu</span>
+            <span className="material-symbols-outlined text-3xl">
+              {menuOpen ? "close" : "menu"}
+            </span>
           </button>
         </div>
+      </div>
+      {/* Menu mobile */}
+      <div
+        className={`md:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out ${
+          menuOpen ? "max-h-90" : "max-h-0"
+        }`}
+      >
+        <nav className="container mx-auto px-6 pb-4 pt-2 flex flex-col gap-2 font-semibold text-secondary/80 border-t border-secondary/10">
+          {navLinks.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className="py-3 px-2 hover:text-primary hover:bg-secondary/5 rounded-lg transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              {label}
+            </Link>
+          ))}
+          <Link
+            href="/contato"
+            className="mt-2 py-3 px-4 bg-secondary text-white rounded-full font-bold text-center hover:bg-secondary/90 transition-all"
+            onClick={() => setMenuOpen(false)}
+          >
+            Agendar Visita
+          </Link>
+        </nav>
       </div>
     </header>
   );
