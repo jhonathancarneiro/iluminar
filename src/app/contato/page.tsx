@@ -44,10 +44,10 @@ export default function ContatoPage() {
           <div>
             <h2 className="font-bold text-secondary mb-1">E-mail</h2>
             <a
-              href="mailto:ola@pequenosexploradores.com"
+              href="mailto:contato@escolailuminar.com"
               className="text-secondary/80 hover:text-primary transition-colors"
             >
-              ola@pequenosexploradores.com
+              contato@escolailuminar.com
             </a>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function ContatoPage() {
       </div>
       <div className="mt-12 flex flex-wrap gap-4">
         <a
-          href="https://wa.me/551145678901"
+          href="https://wa.me/5541984998677?text=Ol%C3%A1!%20Entrei%20em%20contato%20pelo%20site%20da%20Escola%20Iluminar."
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-full font-bold hover:bg-green-700 transition-colors"

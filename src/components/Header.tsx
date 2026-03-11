@@ -40,12 +40,14 @@ export default function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-4">
-          <Link
-            href="/contato"
+          <a
+            href="https://wa.me/5541984998677?text=Ol%C3%A1!%20Vim%20pelo%20site.%20Gostaria%20de%20agendar%20uma%20visita."
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:flex bg-secondary text-white px-6 py-2 rounded-full font-bold hover:bg-secondary/90 transition-all"
           >
             Agendar Visita
-          </Link>
+          </a>
           <button
             type="button"
             className="p-2 text-secondary md:hidden"
@@ -76,13 +78,15 @@ export default function Header() {
               {label}
             </Link>
           ))}
-          <Link
-            href="/contato"
-            className="mt-2 py-3 px-4 bg-secondary text-white rounded-full font-bold text-center hover:bg-secondary/90 transition-all"
+          <a
+            href="https://wa.me/5541984998677?text=Ol%C3%A1!%20Vim%20pelo%20site.%20Gostaria%20de%20agendar%20uma%20visita."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 py-3 px-4 bg-secondary text-white rounded-full font-bold text-center hover:bg-secondary/90 transition-all block"
             onClick={() => setMenuOpen(false)}
           >
             Agendar Visita
-          </Link>
+          </a>
         </nav>
       </div>
     </header>
